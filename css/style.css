@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     width:100%;
-    font-size: 14px;
+    font-size: 16px;
     background-color: rgb(255, 162, 39);
     width: 100%;
     padding: 5px;
@@ -67,10 +67,24 @@ a{
     justify-content: center;
 }
 .sfondo{
+    display: flex;
+    flex-wrap: wrap;
     vertical-align: middle;
+    justify-content: space-around;
     width: 75%;
-    height: 600px;
-    background-color: aquamarine;
+}
+
+.prodotto{
+    width: 32%;
+    
+}
+.img{
+    width: 100%;
+    padding-top:15%;
+    
+}
+.sconto{
+    color: red;
 }
 /* regole immagini */
 
